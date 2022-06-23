@@ -9,7 +9,7 @@ describe("Testing the MovieApp", () => {
       "https://install.appcenter.ms/orgs/itops-03e0/apps/qa-interview-movie-app-1/distribution_groups/link"
     );
   });
-  Context("Verify that user can add a movie in favorites", () => {
+  context("Verify that user can add a movie in favorites", () => {
     it("User selects the movie from movie list", () => {
       Getlocator.SelectMovie().click();
     });
